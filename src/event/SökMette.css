@@ -1,0 +1,148 @@
+.SökMette_section {
+  background: url("../images/rosaveckan.jpg") center center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.35);
+
+  margin-top: -20%;
+  margin-bottom: -5%;
+  object-fit: contain;
+
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 25vw;
+  padding-bottom: 10%;
+}
+
+@media screen and (max-width: 960px) {
+  .SökMette_section {
+    padding-top: 32vw;
+    /* padding-right: 15%;
+    padding-left: 15%; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .SökMette_section {
+    padding-top: 20vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+  .descriptionText {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .postbesk > h2 {
+    padding-left: 2vw;
+  }
+}
+
+.SökMette-content {
+  height: 100%;
+  width: 100%;
+  background: white;
+  padding: 4%;
+}
+
+.SökMette-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+
+  padding: 3%;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.7);
+}
+
+/* -------Texten längst upp------*/
+.sök-event-titel {
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
+}
+
+.sök-event-titel > p {
+  margin-top: 2%;
+}
+
+.sök-event-titel > h1 {
+  color: #db830f;
+}
+/* -------End Texten längst upp------*/
+
+/* -------Postbeskrivningar------*/
+.postbesk {
+  margin: 2.5%;
+  padding-bottom: 1.5%;
+}
+
+.postbesk > p {
+  color: black;
+  font-family: "Lora", serif;
+  text-align: left;
+}
+.postbesk > h2 {
+  color: #db830f;
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+/* -------End Postbeskrivningar------*/
+
+/* -------border corner -------- */
+.SökMette-text:after {
+  content: "";
+  width: 10%;
+  height: 22%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 3px inset #db830f;
+  border-left: 3px inset #db830f;
+}
+
+.SökMette-text:before {
+  content: "";
+  width: 10%;
+  height: 22%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px inset #db830f;
+  border-right: 3px inset #db830f;
+}
+
+/* ---------end border corner-------- */
+.SökMette-text > h1 {
+  padding: 2%;
+  color: #db830f;
+}
+
+.SökMette-titel {
+  color: #db830f;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 35px;
+}
+
+/* ---------- Pilen -------------*/
+.back-arrow > a {
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  margin-left: 5%;
+}
+/* ------border corner end------ */
+
+.bildSök {
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding-top: 3%; */
+  margin: 2%;
+}
+
+.SökMetteImg {
+  height: 30%;
+  width: 60%;
+}

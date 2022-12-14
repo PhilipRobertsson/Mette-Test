@@ -1,0 +1,104 @@
+.container_image-feed {
+  --scaleVar: calc(268.81 / 1000);
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-auto-rows: minmax(min-content, max-content);
+  grid-gap: 4vh;
+  align-items: center;
+  justify-content: center;
+  margin: 4%;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 960px) {
+  .container_image-feed {
+    grid-template-columns: 40vw 40vw;
+    //grid-template-columns: 20vw 20vw 20vw;
+  }
+}
+@media (max-width: 500px) {
+  .container_image-feed {
+    grid-template-columns: 80vw;
+    //grid-template-columns: 20vw 20vw 20vw;
+  }
+}
+
+.container_image {
+  position: relative;
+  height: 98%;
+  overflow: hidden;
+}
+
+.container_image img {
+  // width: 100%;
+  object-fit: cover;
+}
+
+.feedText {
+  margin-left: 12%;
+  margin-right: 12%;
+  font-family: "Lora", serif;
+  font-size: 13pt;
+  line-height: 150%;
+  text-align: center;
+}
+
+.overlay_image-feed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #ff4d4d;
+}
+
+.container_image:hover .overlay_image-feed {
+  opacity: 1;
+}
+
+.text_image-feed {
+  color: white;
+  font-size: clamp(20px, 1.8vw, 26px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.text_image-feed_row1 {
+  color: white;
+  font-size: clamp(20px, 1.8vw, 26px);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.text_image-feed_row2 {
+  color: white;
+  font-size: clamp(20px, 1.8vw, 26px);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}

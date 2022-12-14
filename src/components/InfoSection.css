@@ -1,0 +1,13 @@
+.information > p {
+  padding: 18em;
+  font-family: "Lora", serif;
+  font-size: 12pt;
+  line-height: 150%;
+}
+.link3 {
+  color: #e86c0e;
+  text-decoration: none;
+  font-family: "Lora", serif;
+  font-size: 12pt;
+  line-height: 150%;
+}

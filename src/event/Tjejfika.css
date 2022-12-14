@@ -1,0 +1,107 @@
+.tjejfika_section {
+  background: url("../images/rosaveckan.jpg") center center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.35);
+
+  margin-top: -20%;
+  margin-bottom: -5%;
+  object-fit: contain;
+
+  padding-right: 15vw;
+  padding-left: 15vw;
+  padding-top: 19vw;
+  padding-bottom: 10%;
+}
+@media screen and (max-width: 960px) {
+  .tjejfika_section {
+    padding-top: 24vw;
+    /* padding-right: 15%;
+    padding-left: 15%; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .tjejfika_section {
+    padding-top: 32vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+  .descriptionText {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+}
+
+.fika-content {
+  height: 100%;
+  width: 100%;
+  background: white;
+  padding: 4%;
+  margin-top: 10%;
+}
+
+.fika-text {
+  margin: 10%;
+  padding: 3%;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.7);
+}
+
+/* -------border corner -------- */
+.fika-text:after {
+  content: "";
+  width: 10%;
+  height: 22%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 3px inset #db830f;
+  border-left: 3px inset #db830f;
+}
+
+.fika-text:before {
+  content: "";
+  width: 10%;
+  height: 22%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px inset #db830f;
+  border-right: 3px inset #db830f;
+}
+
+/* ---------end border corner-------- */
+.fika-text > h1 {
+  padding: 2%;
+  color: #db830f;
+  font-size: 4vh;
+}
+
+.fika-titel {
+  color: #db830f;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 35px;
+}
+
+/* ---------- Pilen -------------*/
+.back-arrow > a {
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  margin-left: 5%;
+}
+/* ------border corner end------ */
+
+.bild {
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.tjejfikaImg {
+  height: 50%;
+  width: 80%;
+}

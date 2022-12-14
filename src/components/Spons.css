@@ -1,0 +1,198 @@
+/* .Spons-container {
+  height: 60vh;
+  width: 100%;
+  background: #fdf1e7;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  padding: 2em;
+  flex-direction: column;
+}
+
+.Spons-container > h1 {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-family: sans-serif;
+  justify-content: top;
+  font-weight: bold;
+}
+
+.Spons-container > p {
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.theImages {
+  display: flex;
+  padding: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo1 {
+  height: 110px;
+  width: 140px;
+  margin-right: 50px; /* makes space between the images*/
+/* } */
+
+/* .photo2 {
+  height: 130px;
+  width: 230px;
+}  */
+
+.spons_section {
+  background: url("../images/feed_bakgrund/Spons_bakgrund.png") center
+    center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.35);
+
+  margin-top: -20%;
+  margin-bottom: -5%;
+  object-fit: contain;
+
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 26vw;
+  padding-bottom: 10%;
+}
+
+@media screen and (max-width: 960px) {
+  .spons_section {
+    padding-top: 30vw;
+    /* padding-right: 15%;
+    padding-left: 15%; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .spons_section {
+    padding-top: 20vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+  .descriptionText {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+
+.spons-content {
+  height: 100%;
+  width: 100%;
+  background: white;
+  padding: 4%;
+}
+
+.spons-text {
+  margin: 10%;
+
+  padding: 3%;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.7);
+}
+
+.descriptionText > a {
+  text-decoration: none;
+  color: #db830f;
+  font-family: "Lora", serif;
+}
+
+.spons-text > a:hover {
+  /* color: black; */
+  color: #db830f;
+}
+
+/* -------border corner -------- */
+.spons-text:after {
+  content: "";
+  width: 10%;
+  height: 22%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 3px inset #db830f;
+  border-left: 3px inset #db830f;
+}
+
+.spons-text:before {
+  content: "";
+  width: 10%;
+  height: 22%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px inset #db830f;
+  border-right: 3px inset #db830f;
+}
+
+/* ---------end border corner-------- */
+.spons-text > h1 {
+  padding: 2%;
+  color: #db830f;
+}
+
+.spons-titel > p {
+  color: black;
+  margin: 2%;
+}
+
+.spons-titel {
+  color: #db830f;
+  text-align: center;
+  /* font-weight: bold; */
+  position: relative;
+
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+/* ---------- Pilen -------------*/
+.back-arrow > a {
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  margin-left: 5%;
+}
+
+/*------- bilderna------- */
+
+.theImages {
+  display: flex;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: auto; */
+  width: 100%;
+}
+
+.photo1 {
+  object-fit: contain;
+  height: 20vh;
+  width: 25vh;
+}
+
+@media screen and (max-width: 960px) {
+  .theImages {
+    flex-direction: column;
+  }
+}
+
+/* .photo2 {
+  height: 50%;
+  width: 50%;
+} */
+
+/* .bild {
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3%;
+} */
+
+/* .sponsImg {
+  height: 50%;
+  width: 80%;
+} */

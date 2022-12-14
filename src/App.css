@@ -1,0 +1,71 @@
+/* Colour palette https://colors.muz.li/palette/000000/f5a25d/ff9292/ffffff/f5a25d */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-width: fit-content;
+}
+
+.pageTitle {
+  color: #db830f;
+  text-align: center;
+  font-size: clamp(24px, 1.6vw, 36px);
+  font-weight: 200;
+}
+
+.descriptionText {
+  font-family: "Lora", serif;
+  font-size: clamp(12px, 1.6vw, 18px);
+  line-height: 150%;
+  text-align: center;
+}
+
+.hem,
+.kontakt,
+.mette22-23 {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.om-oss {
+  background-image: url("images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.footLink2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Lora", serif;
+}
+
+.footLink2:hover {
+  color: #ff9c00;
+  transition: 200ms ease-in;
+}
+/* .sign-up {
+  background-image: url("/images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
